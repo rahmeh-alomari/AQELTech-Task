@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { partnersMock } from '../../mock/partnersMock';
-import { Soutions } from '../../models/Soutions';
+import { Services } from '../../models/Services';
 
 @Component({
   selector: 'app-partners',
@@ -8,7 +8,7 @@ import { Soutions } from '../../models/Soutions';
   styleUrls: ['./partners.component.css']
 })
 export class PartnersComponent implements OnInit {
-  partners: Soutions[] = partnersMock;
+  partners: Services[] = partnersMock;
 
   constructor() { }
 

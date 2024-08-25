@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { soutionsMock } from '../../mock/soutionsMock';
-import { Soutions } from '../../models/Soutions';
+import { Services } from '../../models/Services';
 @Component({
   selector: 'app-solutions',
   templateUrl: './solutions.component.html',
   styleUrls: ['./solutions.component.css']
 })
 export class SolutionsComponent implements OnInit {
-  solutions: Soutions[] = soutionsMock;
+  solutions: Services[] = soutionsMock;
 
   constructor() { }
 

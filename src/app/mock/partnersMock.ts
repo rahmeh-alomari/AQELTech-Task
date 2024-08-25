@@ -1,6 +1,6 @@
-import { Soutions } from '../models/Soutions';
+import { Services } from '../models/Services';
 
-export const partnersMock: Soutions[] = [
+export const partnersMock: Services[] = [
   {
     id: 1,
     title: 'Diverse experience',
