@@ -3,13 +3,10 @@
 .btn {
     border-radius: 21px !important;
     width: 153px !important;
-
 }
-
 .card-title {
     font-size: 1.5rem;
     text-align: center;
-    
 }
 
 .project-tilte{
@@ -20,7 +17,6 @@
   }
   
   @media only screen and (min-width: 1050px) {
-
     .card {
         height: 90%;
     }

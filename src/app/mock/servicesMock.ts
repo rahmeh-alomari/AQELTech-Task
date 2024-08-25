@@ -1,4 +1,3 @@
-// mock-data.ts
 import { Services } from '../models/Services';
 
 export const servicesMock: Services[] = [

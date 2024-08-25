@@ -1,4 +1,3 @@
-// mock-data.ts
 import { Soutions } from '../models/Soutions';
 
 export const partnersMock: Soutions[] = [
