@@ -1,0 +1,106 @@
+.firstSection {
+    background: url('../../../assets/images/bk-image.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    min-height: 89vh;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 120%;
+}
+
+.overlay-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.firstSection-content {
+    position: relative;
+    text-align: start;
+    color: black;
+    /* border: 1px solid rgb(222, 219, 219); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 21px;
+    z-index: 2;
+    padding-top: 50px;
+    background: rgba(51, 51, 51, 0.65);
+    opacity: 5;
+}
+
+
+.firstSection h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.firstSection p {
+    font-size: 1.25rem;
+    color: #fff;
+
+}
+
+
+/* Projects Section CSS */
+
+
+.Projects h2,
+.Project {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+
+
+.project-des {
+    color: #fff;
+    margin: 20px;
+}
+
+
+/* features Section CSS */
+
+.features-tilte {
+    color: rgba(0, 162, 234, 1);
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 31px;
+
+
+}
+
+.features-des {
+    color: 010920;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+/* ecommerce Section CSS */
+
+.ecommerce-title {
+    color: #F26322;
+}
+
+.ecommerce {
+    font-style: italic;
+    font-weight: 500;
+}

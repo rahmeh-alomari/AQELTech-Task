@@ -1,0 +1,34 @@
+<section id="partner" class=" py-5">
+    <h3 class="my-5 section-title">Why Choose  <a href="https://www.linkedin.com/company/aqeltech/" target="_blank"> <span class="project-tilte">AQELTECH</span></a> as Your eCommerce Partner?</h3>
+<div class="container">
+    <div class="row ">
+        <div class="col-md-6">
+          
+            <ul class="partner-list">
+                <li *ngFor="let partner of partners" class="partner-item">
+                    <h5 class="partner-title ">{{ partner.title }}</h5>
+                    <p class="partner-description">{{ partner.description }}</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6 mt-3">
+            <div class="image-container">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../../../assets/images/group1.jpg" alt="eCommerceImage" class="img-fluid">
+                    </div>
+                    <div class="col-6">
+                        <img src="../../../assets/images/group2.webp" alt="eCommerceImage" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <img src="../../../assets/images/group.png" alt="eCommerceImage" class="img-fluid ecomerceimg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>

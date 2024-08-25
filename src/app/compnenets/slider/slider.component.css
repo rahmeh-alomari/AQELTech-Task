@@ -1,0 +1,13 @@
+#slider{
+    background-color: #F8F8F8;
+}
+.card-desc{
+    max-width: 800px;
+margin: auto;
+}
+.img-slider{
+    max-height: 250px;
+    max-width: 450px;
+
+    object-fit: cover;
+}

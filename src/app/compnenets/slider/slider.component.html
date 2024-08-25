@@ -1,0 +1,10 @@
+<section class="cards-section py-5 mb-5" id="slider">
+    <h4 class="card-title">Our Portfolio</h4>
+    <p class="card-desc my-3">We are a leading Magento development company that has completed a large number of projects till date.</p>
+    <div class="owl-carousel owl-theme mt-5">
+      <div class="item" *ngFor="let item of carouselItems">
+        <img [src]="item.src" [alt]="item.alt" class="img-slider">
+      </div>
+    </div>
+  </section>
+  
